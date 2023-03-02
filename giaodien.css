@@ -1,0 +1,131 @@
+    body{
+        background-image: url(thuycanh.jpg);     
+        background-repeat: no-repeat; 
+        background-size: cover;
+        
+    }
+
+    /*  css cho form dang nhap */
+    .formlogin{
+       text-align: center;
+        padding-top: 5px;
+        margin-top: 50px;
+    }
+    .login{
+        display: inline-block;
+        align-items: center;
+        width: 800px;
+        height: 750px;
+        border: 5px solid rgb(243, 237, 237);
+        border-radius: 20px;
+        text-align: center;
+        background-color: white;
+        padding-left: 5px;
+    }
+     /* css cho the trong form  */
+    .login h1{
+        font-family: sans-serif;
+        color: dodgerblue;
+        border-radius: 10px;
+        margin-top: 80px;
+        padding: 2px;
+        font-size: 50px;
+    }
+    /*  Css cho các thẻ input trong form */
+    .login input{
+        border-radius: 10px;
+        border: 2px solid;
+        border-color: deepskyblue;
+        padding-left: 10px;
+        padding-top: 30px;
+        margin-bottom: 20px;
+        height: 60px;
+        width: 700px;
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    /*  */
+    .login label{
+        float: left;
+        padding-left: 40px;
+        font-family: sans-serif;
+        color: dodgerblue;
+        font-style: bold;
+        font-size: 30px;    
+    }
+
+    .thongtin{
+        color: yellow;
+        padding-left: 50px;
+        font-size: 30px;
+    }
+    .login button{
+        border-radius: 10px;
+        width: 720px;
+        height: 100px;
+        background-color: dodgerblue;
+        color: white;
+        padding-top: 10px;
+        margin-top: 20px;
+        font-size: 40px;
+        border: 2px solid;
+        border-color: deepskyblue;
+        font-family: sans-serif;
+    }
+   
+    /* css cho thong tin sinh vien */
+    .thongtin{     
+        float: left;
+        font-size: 0.5vw;
+    }
+  
+    /* css cho hinh anh  */
+    .flex-item{
+        text-align: center;
+    }
+   
+    /* css cho do an tot nghiep */
+    .flex-item2{
+        display: flex;
+        flex-direction: column;
+        color: yellow;
+        align-items: center;       
+        font-size: 1vw;
+        width: 100%;
+        font-family: serif;
+        padding-top: 30px;
+        margin-bottom: 0px;
+
+    }
+    
+    /*  css ten he thong do an  */
+    .flex-item3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: yellow;
+        font-size: 18px;
+        font-size: 1vw;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    @media screen and (max-width:320px) {
+        .formlogin{
+            width: 100%;
+        }
+        .flex{
+            width: 100%;
+        }
+        .flex-container{
+            width: 100%;
+        }
+        .login{
+            font-size: 20px;
+        }
+        
+    }
+ 
+
+
+
+

@@ -1,0 +1,409 @@
+/*  canh lề cho các phần tử nằm giữa trang web */
+ /* body{
+    background-color:blue
+ } */
+ 
+/* chèn hình nền  */
+body{
+   background-image: url("/webdoan/trongrauthuycanh2.png");
+   background-size: cover;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+  
+   } 
+
+
+/*  CSS CHO HINH ANH TEN TRUONG */
+ .imga{
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 30px;
+    float: left;
+    margin-left: 100px;
+ }
+
+ /* truy cap toi phan tu h1 */
+.tendetai h1{  
+   text-align: center;
+    font-size: 2vw;
+    font-family: 'Times New Roman', Times, serif;
+    color:red;
+}
+.tendetai{
+   border: 5px solid white;
+   padding-bottom: 0px;
+   border-width: 1px;
+   background-color: white;
+   margin-bottom: 0px;
+   margin-top: 0px;
+}
+
+/* CSS HO VA TEN */
+.hovaten{
+
+   font-size: 30px;
+   text-align: center;
+   color: black;
+   padding-left: 50px;
+   padding-top: 50px;
+   margin-top: 300px;
+   
+   
+}
+
+ .container{
+   max-width: 1000px;
+   height: 100px;
+   text-align: center;
+   align-items: center;
+   margin-right: 0px;
+   
+ }
+
+ #a1{
+   border: 5px solid white;
+   border-width: 10px;
+ }
+
+ /* the span nhiet do */
+ #nhietdo1{
+   color:red;
+   font-family: sans-serif;
+   padding-top: 80px;
+   font-size: 80px;
+   margin-left: 250px;
+   margin-top: 0px;
+   content:"\00B0";
+ }
+ #doam1{
+  
+      color:red;
+      font-family: sans-serif;
+      padding-top: 80px;
+      font-size: 80px;
+      margin-left:200px;
+      margin-top: 0px;
+    }
+    #mucnuoc{ 
+      color:red;
+      font-family: sans-serif;
+      padding-top: 80px;
+      font-size: 80px;
+      margin-left: 250px;
+      margin-top: 55px;
+    }
+.flex-container-2{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: flex-end;
+   align-content: stretch;
+   padding: 50px;
+   margin-right: 20px;
+}
+.flex-container-2 a{
+   color: white;
+   margin-right: 50px;
+   font-size: 1vw;
+   font-family: sans-serif;
+
+}
+.flex-container-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;  
+    flex-wrap: wrap;
+    justify-content: space-around;  /*  khoang cach xung quanh giua cac phan tu */
+    align-content: stretch;     
+}
+/* bom 1 */
+.flex-item1{
+    border: 5px solid blue;
+    border-width: 15px;
+    width: 600px;
+    height: 500px;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 15px;
+   
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 150px;
+    padding-top: 40px;
+    background-image: url("/webdoan/nhietdo.jpg");
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position: bottom;
+    background-position: left;
+    color: red;
+    font-size: 25px;
+    background-color: white;
+    
+   
+}
+/* bom 2 */
+.flex-item2{
+    margin-top: 20px;
+    border: 5px solid blue;
+    border-width: 15px;
+    width: 600px;
+    height: 500px;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    align-content: center;
+    background-image: url("/webdoan//doam2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: left;
+    background-size: 350px;
+    color: red;
+    font-size: 25px;
+    background-color: white;
+    margin-top: 150px;
+    padding-top: 50px;
+}
+/* bom 3 */
+.flex-item3{
+    margin-top: 20px;
+    border: 5px solid blue;
+    width: 600px;
+    height: 500px;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 15px;
+    border-width: 15px;
+    flex-wrap: wrap;
+    align-content: center;
+    background-image: url("/webdoan/mucnuoc3.jpg");
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position: left;
+    color: red;
+    font-size: 25px;
+    background-color: white;
+    margin-top: 150px;
+    padding-top: 50px;
+}
+
+/*  du lieu cam bien */
+/* .head-1{
+    border: 5px solid white;
+    text-align: center;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-family: sans-serif;
+   
+    
+} */
+
+ /* css giao dien dieu khien thiet bi */
+ .ip1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 30px;
+    padding-left: 20px;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    font-family: sans-serif;  
+    
+ }
+ /* .ip2{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   height: 30px;
+   padding-left: 20px;
+   align-content: center;
+   flex-wrap: wrap;
+   margin-left: 0px;
+   font-family: sans-serif;  
+   
+} */
+ .button1 button{
+    width: 100px;
+    padding-top: 10px;
+    background-color: green;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-right: 30px;
+    padding-left: 10px;
+    margin-left: 30px;
+ }
+ .button2 button{
+   width: 100px;
+   padding-top: 10px;
+   background-color: green;
+   color: white;
+   font-family: sans-serif;
+   border-radius: 5px;
+   padding-bottom: 10px;
+   margin-top: 20px;
+   margin-right: 30px;
+   padding-left: 10px;
+   margin-left: 30px;
+}
+
+.button3 button{
+   width: 100px;
+   padding-top: 10px;
+   background-color: green;
+   color: white;
+   font-family: sans-serif;
+   border-radius: 5px;
+   padding-bottom: 10px;
+   margin-top: 20px;
+   margin-right: 30px;
+   padding-left: 10px;
+   margin-left: 30px;
+}
+
+ /* ================================== */
+
+ .flex-container-3{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;  
+   flex-wrap: wrap;
+   justify-content: space-around;  /*  khoang cach xung quanh giua cac phan tu */
+   align-content: stretch;     
+}
+/* bom 1 */
+.flex-item4{
+   border: 5px solid blue;
+   width: 400px;
+   height: 200px;
+   text-align: center;
+   font-family: sans-serif;
+   border-radius: 10px;
+   padding-top: 10px;
+   flex-wrap: wrap;
+   align-content: center;
+   margin-top: 20px;
+}
+/* bom 2 */
+.flex-item5{
+   margin-top: 20px;
+   border: 5px solid blue;
+   width: 400px;
+   height: 200px;
+   text-align: center;
+   font-family: sans-serif;
+   border-radius: 10px;
+   flex-wrap: wrap;
+   align-content: center;
+   padding-top: 10px;
+}
+/* bom 3 */
+.flex-item6{
+   margin-top: 20px;
+   border: 5px solid blue;
+   width: 400px;
+   height: 200px;
+   text-align: center;
+   font-family: sans-serif;
+   border-radius: 10px;
+   flex-wrap: wrap;
+   align-content: center;
+   padding-top: 10px;
+}
+
+#canvas1{
+   
+  margin-top: 100px;
+height: 100vh;
+   
+   font-size: 1.5vw;
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

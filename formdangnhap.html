@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ web</title>
+    <!-- <script src="/webdoan/xuly.js"></script> -->
+    <!--  link file css voi file html -->
+    <link rel="stylesheet" href="giaodien.css">
+    <script src="/webdoan/server.js"></script>
+   
+     <!-- <style>
+            body{
+             background-image: url(thuycanh.jpg);
+             background-repeat: no-repeat; 
+             background-size: cover;
+             
+         }
+     
+         /*  css cho form dang nhap */
+         .formlogin{
+            text-align: center;
+             padding-top: 5px;
+             margin-top: 50px;
+         }
+         .login{
+             display: inline-block;
+             align-items: center;
+             width: 800px;
+             height: 750px;
+             border: 5px solid rgb(243, 237, 237);
+             border-radius: 20px;
+             text-align: center;
+             background-color: white;
+             padding-left: 5px;
+         }
+          /* css cho the trong form  */
+         .login h1{
+             font-family: sans-serif;
+             color: dodgerblue;
+             border-radius: 10px;
+             margin-top: 80px;
+             padding: 2px;
+             font-size: 50px;
+         }
+         /*  Css cho các thẻ input trong form */
+         .login input{
+             border-radius: 10px;
+             border: 2px solid;
+             border-color: deepskyblue;
+             padding-left: 10px;
+             padding-top: 30px;
+             margin-bottom: 20px;
+             height: 60px;
+             width: 700px;
+             margin-top: 10px;
+             font-size: 30px;
+         }
+         /*  */
+         .login label{
+             float: left;
+             padding-left: 40px;
+             font-family: sans-serif;
+             color: dodgerblue;
+             font-style: bold;
+             font-size: 30px;    
+         }
+     
+         .thongtin{
+             color: yellow;
+             padding-left: 50px;
+             font-size: 30px;
+         }
+         .login button{
+             border-radius: 10px;
+             width: 720px;
+             height: 100px;
+             background-color: dodgerblue;
+             color: white;
+             padding-top: 10px;
+             margin-top: 20px;
+             font-size: 40px;
+             border: 2px solid;
+             border-color: deepskyblue;
+             font-family: sans-serif;
+         }
+        
+         /* css cho thong tin sinh vien */
+         .thongtin{     
+             float: left;
+             font-size: 0.5vw;
+         }
+       
+         /* css cho hinh anh  */
+         .flex-item{
+             text-align: center;
+         }
+        
+         /* css cho do an tot nghiep */
+         .flex-item2{
+             display: flex;
+             flex-direction: column;
+             color: yellow;
+             align-items: center;       
+             font-size: 1vw;
+             width: 100%;
+             font-family: serif;
+             padding-top: 30px;
+             margin-bottom: 0px;
+     
+         }
+         
+         /*  css ten he thong do an  */
+         .flex-item3{
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             color: yellow;
+             font-size: 18px;
+             font-size: 1vw;
+             padding-top: 0px;
+             margin-top: 0px;
+         }
+         @media screen and (max-width:320px) {
+             .formlogin{
+                 width: 100%;
+             }
+             .flex{
+                 width: 100%;
+             }
+             .flex-container{
+                 width: 100%;
+             }
+             .login{
+                 font-size: 20px;
+             }
+             
+         }
+    </style> -->
+
+</head>
+<body>
+    <script>
+        function xuly(){
+            // lay du lieu tu form
+            var name = document.getElementById('username').value;
+            var pass = document.getElementById('pass').value;
+            if(name=='nguyenduchai' && pass=='12341234'){
+                alert('Dang nhap thanh cong');
+                window.location= 'http://127.0.0.1:3000/webdoan/hienthidulieu.html';
+            }
+        }
+    </script>
+    <!-- thẻ br là thẻ ngắt dòng  -->
+    <!--  tao flex-box cha chua cac flex-item -->
+    <div class="flex-item">
+        <img src="utc1.PNG" width="1500px" height="300px" >          
+    </div>
+
+   <div class="flex-container">    
+        <div class="flex-item2">
+            <h1> <b>ĐỒ ÁN TỐT NGHIỆP</b> </h1>
+        </div>
+        <div class="flex-item3">
+            <h2> HỆ THỐNG TRỒNG RAU THỦY CANH ỨNG DỤNG CÔNG NGHỆ IOT</h2>
+        </div>  
+</div>
+
+ <!-- tao form dang nhap -->
+ <div class="formlogin">
+    <div class="login">
+        <h1>LOGIN</h1>
+        <label> FULL NAME </label> <br>
+        <input type="text" name="" id="username" placeholder="Username"> <br>
+         <label for="">PASS</label> <br>
+        <input type="password" name="" id="pass" placeholder="Password"> <br>
+        <button id="login" onclick="xuly()">LOGIN</button>    
+     </div>
+ </div>
+
+ <!--  thong tin -->
+ <div class="flex">
+    <div class="thongtin">
+        <h1>SVTH: Nguyễn Đức Hải</h1>
+        <h1>MSV: 5951020022</h1>
+        <h1>LỚP: Kĩ Thuật Điện Tử Tin Học Công Nghiệp K59</h1>
+        <h1>GVHD: PGS.TS.Đào Thanh Toản</h1>
+     </div>  
+ </div>
+</body>
+</html>
