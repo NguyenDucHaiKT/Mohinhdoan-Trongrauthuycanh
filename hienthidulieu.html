@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST</title>
+   <link rel="stylesheet" href="hienthidulieu.css">  
+  
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+ 
+</head>
+<body>
+    
+    <!--  chen hinh anh logo truong -->
+    <div class="header">
+        <!-- chen vao logo -->
+        <div class="imga">
+            <img src="/doanupdate/utc1.PNG" width="1800px" height="300px">
+        </div>
+
+    </div>
+    <!--  chen ten de tai -->
+    <div class="tendetai">
+            <h1><b>ỨNG DỤNG CÔNG NGHỆ IoT XÂY DỰNG MÔ HÌNH  </b></h1>
+            <h1><b>HỆ THỐNG GIÁM SÁT TRỒNG RAU THỦY CANH</b></h1>    
+    </div>
+  
+ 
+        <!-- HƯỚNG DẪN FLEX-BOX -->
+        <div class="flex-container-1">
+
+            <!-- flex box nhiet do -->
+            <div class="flex-item1">
+                <!-- hiển thị giá trị nhiệt độ -->
+                <div class="header">
+                    <h1> <b>NHIỆT ĐỘ</b> </h1>                   
+                        <div>
+                            <h2 id="nhietdo1"><span id="nhietdo">00</span> <span>&#176C</span></h2>  
+                        </div>                                       
+                </div>
+              
+            </div>
+
+            <!-- flex box do am-->
+            <div class="flex-item2">
+                <h1><b>ĐỘ ẨM </b></h1> 
+                <h2 id="doam1"><span id="doam">00</span> <span>%</span></h2>              
+            </div>
+
+           
+        </div>    
+
+        <!--  do thi  -->
+        <div class="container">
+            <canvas id="chart" ></canvas>
+        </div>
+
+        <!--  ho va ten giang vien -->
+        <div class="hovaten">
+          
+                <h1><b>GVHD: PGS.TS.ĐÀO THANH TOẢN</b></h1>
+                <h1><b>SVTH: NGUYỄN ĐỨC HẢI</b></h1>
+            
+        </div>
+     
+       <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+       <script src="/webdoan/dothi.js"></script>
+        <script src="/webdoan/firebasedata.js"></script>
+      
+</body>
+</html>
